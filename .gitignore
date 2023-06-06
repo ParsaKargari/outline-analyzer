@@ -1,0 +1,24 @@
+# React
+node_modules/
+build/
+dist/
+.cache/
+coverage/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+*.env
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Miscellaneous
+.DS_Store
+*.log
+*.swp

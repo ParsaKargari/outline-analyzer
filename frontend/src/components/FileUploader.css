@@ -1,0 +1,112 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.overlay-content {
+  background-color: white;
+  padding: 40px;
+  position: relative;
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.overlay-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  color: #888;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.overlay-close:hover {
+  color: #333;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.loading-spinner {
+  font-size: 48px;
+  color: #888;
+}
+
+.dropzone {
+  border: 2px dashed #ccc;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dropzone.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.dropzone:hover {
+  background-color: #f8f8f8;
+}
+
+.drop-icon {
+  font-size: 48px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.file-selected {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.upload-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.upload-button:hover {
+  background-color: #45a049;
+}
+.course-input {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.course-input:focus {
+  outline: none;
+  border-color: #99c49b;
+  box-shadow: 0 2px 8px rgba(99, 255, 169, 0.3);
+}
